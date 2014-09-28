@@ -1,0 +1,48 @@
+/***************************************************************************
+*   LRN Show Clock. Flashes a countdown on screen to warn user of          *
+*   beginning and end of commercial break, for radio programs. Runs        *
+*   during user configured showtimes, with breaks based on Liberty         *
+*   Radio Network schedule.                                                *
+*                                                                          *
+*   Copyright (C) 2014  Colin Michael McCoy                                *
+*                                                                          *
+*   This program is free software: you can redistribute it and/or modify   *
+*   it under the terms of the GNU General Public License as published by   *
+*   the Free Software Foundation, either version 3 of the License, or      *   
+*   (at your option) any later version.                                    *
+*                                                                          *
+*   This program is distributed in the hope that it will be useful,        *
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of         *
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          *
+*   GNU General Public License for more details.                           *
+*                                                                          *
+*   You should have received a copy of the GNU General Public License      *
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.  *
+*                                                                          *
+*   To contact the author, write to mick4747@gmail.com.                    *
+*                                                                          *
+***************************************************************************/
+
+LRN Show Clock was developed in Java 7 using the Swing library as well as 
+the open-source Quartz Job Scheduling Library version 2.2.1 (www.quartz-scheduler.org)
+
+The freeware font used for the countdown animation is Crystal by Allen R. Walden
+(http://www.fontspace.com/allen-r-walden/crystal)
+
+LRN Show Clock is a program for displaying a countdown timer at the beginning and
+end of commercial breaks for any show running on the Liberty Radio Network schedule
+(http://www.freetalklive.com/files/FTL_Clock.pdf). The countdown starts at 15 seconds
+from the end of the commercial break and 60 seconds from the beginning. The numbers 
+appear in green until the timer reaches 5 seconds, at which point they appear in red.
+
+The program includes a GUI settings menu for users to input their showtimes. Program
+will run in the background until the appointed showtime, at which point the countdown
+animations will begin appearing at their proper times. Showtimes can be set for multiple
+days per week, and for different time slots on different days. Program must be running 
+before the beginning of the next showtime in order to work properly during that showtime.
+
+Installation:
+Unzip all contents of the .zip file to the preferred directory. To run the program, double
+click the executable .jar file, LRN_Show_Clock.jar. The user can make a shortcut to the .jar
+file, but the original file must be kept in the same directory as the lib folder, as it
+needs access to the third-party .jars in that folder.
