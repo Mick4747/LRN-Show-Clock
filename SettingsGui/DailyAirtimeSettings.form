@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Daily Airtimes"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-78,0,0,2,98"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="dailyAirtimesPanel" alignment="0" pref="594" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="dailyAirtimesPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="dailyAirtimesPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="thursdayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="fridayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="saturdayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tuesdayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="wednesdayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="wedStartLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tueStartLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="thuStartLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="friStartLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="satStartLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="mondayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sundayLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sunStartLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="monStartLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="satStartHourSpinner" linkSize="2" max="32767" attributes="0"/>
+                              <Component id="tueStartHourSpinner" linkSize="2" max="32767" attributes="0"/>
+                              <Component id="sunStartHourSpinner" linkSize="2" max="32767" attributes="0"/>
+                              <Component id="monStartHourSpinner" max="32767" attributes="0"/>
+                              <Component id="wedStartHourSpinner" linkSize="2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="thuStartHourSpinner" linkSize="2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="friStartHourSpinner" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="satStartColon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="friStartColon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="thuStartColon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="wedStartColon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="tueStartColon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="sunStartColon" min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Component id="monStartColon" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="satStartMinuteSpinner" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="satStartAmPm" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="friStartMinuteSpinner" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="friStartAmPm" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="thuStartMinuteSpinner" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thuStartAmPm" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="wedStartMinuteSpinner" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wedStartAmPm" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tueStartMinuteSpinner" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tueStartAmPm" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="monStartMinuteSpinner" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="sunStartMinuteSpinner" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sunStartAmPm" max="32767" attributes="0"/>
+                                      <Component id="monStartAmPm" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="sunEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="sunEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="monEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="monEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="tueEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="tueEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="wedEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="wedEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="thuEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="thuEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="friEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="friEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="satEndLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="satEndHourSpinner" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="sunEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="sunEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="monEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="monEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="tueEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="tueEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="wedEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="wedEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="thuEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="thuEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="friEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="friEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="satEndColon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="satEndMinuteSpinner" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="satEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="friEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="thuEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="wedEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tueEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="sunEndAmPm" alignment="0" max="32767" attributes="0"/>
+                              <Component id="monEndAmPm" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                          <Component id="dailyAirtimesHeader" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator1" min="-2" pref="715" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="619" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="okButton" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="cancelButton" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="applyButton" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="224" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="dailyAirtimesHeader" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="sundayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sunEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mondayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="monEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tuesdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tueEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="wednesdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wedEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="thursdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="thuEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="fridayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="friEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="saturdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satStartHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satStartColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satStartMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satStartAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satEndLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satEndHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satEndColon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satEndMinuteSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satEndAmPm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="applyButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="okButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="dailyAirtimesHeader">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Set Daily Airtimes"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="sundayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sunday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sundayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mondayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Monday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mondayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tuesdayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tuesday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tuesdayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wednesdayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Wednesday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wednesdayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="thursdayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Thursday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thursdayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fridayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Friday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="fridayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="saturdayLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Saturday"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="saturdayLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(sunStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sunStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="monStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tueStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wedStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="thuStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="friStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="satStartLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satStartLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(monStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(tueStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(wedStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(thuStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(friStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satStartHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(satStartHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satStartHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satStartHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sunStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="monStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tueStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wedStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="thuStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="friStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="satStartColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satStartColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(sunStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(sunStartMinuteSpinner, &quot;00&quot;));&#xa;sunStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(monStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(monStartMinuteSpinner, &quot;00&quot;));&#xa;monStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(tueStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(tueStartMinuteSpinner, &quot;00&quot;));&#xa;tueStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(wedStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(wedStartMinuteSpinner, &quot;00&quot;));&#xa;wedStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(thuStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(thuStartMinuteSpinner, &quot;00&quot;));&#xa;thuStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(friStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(friStartMinuteSpinner, &quot;00&quot;));&#xa;friStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satStartMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(satStartMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satStartMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satStartMinuteSpinner.setEditor(new JSpinner.NumberEditor(satStartMinuteSpinner, &quot;00&quot;));&#xa;satStartMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {sunStartValue1, sunStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {monStartValue1, monStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {tueStartValue1, tueStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {wedStartValue1, wedStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {thuStartValue1, thuStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {friStartValue1, friStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satStartAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {satStartValue1, satStartValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satStartAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satStartAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sunEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="monEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tueEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wedEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="thuEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="friEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="satEndLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satEndLabel.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(sunEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(monEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(tueEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(wedEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(thuEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(friEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satEndHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(satEndHour,1,12,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satEndHourSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satEndHourSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sunEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="monEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tueEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wedEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="thuEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="friEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="satEndColon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satEndColon.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(sunEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(sunEndMinuteSpinner, &quot;00&quot;));&#xa;sunEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(monEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(monEndMinuteSpinner, &quot;00&quot;));&#xa;monEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(tueEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(tueEndMinuteSpinner, &quot;00&quot;));&#xa;tueEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(wedEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(wedEndMinuteSpinner, &quot;00&quot;));&#xa;wedEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(thuEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(thuEndMinuteSpinner, &quot;00&quot;));&#xa;thuEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(friEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(friEndMinuteSpinner, &quot;00&quot;));&#xa;friEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satEndMinuteSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerNumberModel(satEndMinute,0,59,1)" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satEndMinuteSpinnerStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satEndMinuteSpinner.setEditor(new JSpinner.NumberEditor(satEndMinuteSpinner, &quot;00&quot;));&#xa;satEndMinuteSpinner.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="sunEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {sunEndValue1, sunEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sunEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sunEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="monEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {monEndValue1, monEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="monEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="monEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="tueEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {tueEndValue1, tueEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tueEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="tueEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="wedEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {wedEndValue1, wedEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="wedEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="wedEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="thuEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {thuEndValue1, thuEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="thuEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="thuEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="friEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {friEndValue1, friEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="friEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="friEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="satEndAmPm">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new CyclingSpinnerListModel(new String[] {satEndValue1, satEndValue2})" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="satEndAmPmStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satEndAmPm.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+        </Component>
+        <Component class="javax.swing.JButton" name="applyButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apply"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="applyButtonActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="applyButton.setEnabled(false);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="cancelButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="okButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
